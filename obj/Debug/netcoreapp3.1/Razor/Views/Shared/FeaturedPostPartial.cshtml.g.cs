@@ -12,7 +12,15 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 4 "D:\Проекты c#\Helga_portfolio\Views\_ViewImports.cshtml"
+using Helga_portfolio.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"43a287d072be21680385b4e4083c025d3b2484e8", @"/Views/Shared/FeaturedPostPartial.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a087df66349e43eb54c0addb13ae5e035bde9ea7", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_FeaturedPostPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

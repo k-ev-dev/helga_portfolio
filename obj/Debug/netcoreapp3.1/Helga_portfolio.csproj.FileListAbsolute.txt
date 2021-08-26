@@ -34,7 +34,6 @@ D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\
 D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NavPartial.cshtml.g.cs
 D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\PostsPartial.cshtml.g.cs
 D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
-D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\ViewImports.cshtml.g.cs
 D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\Проекты c#\Helga_portfolio\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 D:\Проекты c#\Helga_portfolio\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
@@ -161,3 +160,10 @@ D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Helga_portfolio.Mvc
 D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\CssPartial.cshtml.g.cs
 D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Shared\IntroHeaderNavPartial.cshtml.g.cs
+D:\Проекты c#\Helga_portfolio\bin\Debug\netcoreapp3.1\appsettings.production.json
+D:\Проекты c#\Helga_portfolio\bin\Debug\netcoreapp3.1\appsettings.staging.json
+D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\Проекты c#\Helga_portfolio\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs

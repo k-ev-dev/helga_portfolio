@@ -12,16 +12,47 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 4 "D:\Проекты c#\Helga_portfolio\Views\_ViewImports.cshtml"
+using Helga_portfolio.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ffeb37764ecba380ab5e4088c8e5a94010543d", @"/Views/Shared/FooterPartial.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a087df66349e43eb54c0addb13ae5e035bde9ea7", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_FooterPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("#"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        #line hidden
+        #pragma warning disable 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
+        #pragma warning restore 0649
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner __tagHelperRunner = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner();
+        #pragma warning disable 0169
+        private string __tagHelperStringValueBuffer;
+        #pragma warning restore 0169
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __backed__tagHelperScopeManager = null;
+        private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager __tagHelperScopeManager
+        {
+            get
+            {
+                if (__backed__tagHelperScopeManager == null)
+                {
+                    __backed__tagHelperScopeManager = new global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager(StartTagHelperWritingScope, EndTagHelperWritingScope);
+                }
+                return __backed__tagHelperScopeManager;
+            }
+        }
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            WriteLiteral(@"<!-- Footer -->
-<footer id=""footer"">
-    <section>
-        <form method=""post"" action=""#"">
+            WriteLiteral("<!-- Footer -->\r\n<footer id=\"footer\">\r\n    <section>\r\n        ");
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8ffeb37764ecba380ab5e4088c8e5a94010543d3742", async() => {
+                WriteLiteral(@"
             <div class=""fields"">
                 <div class=""field"">
                     <label for=""name"">Name</label>
@@ -39,14 +70,30 @@ namespace AspNetCore
             <ul class=""actions"">
                 <li><input type=""submit"" value=""Send Message"" /></li>
             </ul>
-        </form>
+        ");
+            }
+            );
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
+            __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
+            __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_0.Value;
+            __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
+            __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_1);
+            await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+            if (!__tagHelperExecutionContext.Output.IsContentModified)
+            {
+                await __tagHelperExecutionContext.SetOutputContentAsync();
+            }
+            Write(__tagHelperExecutionContext.Output);
+            __tagHelperExecutionContext = __tagHelperScopeManager.End();
+            WriteLiteral(@"
     </section>
     <section class=""split contact"">
         <section class=""alt"">
             <h3>Address</h3>
             <p>
-                1234 Somewhere Road #87257<b");
-            WriteLiteral(@"r />
+                1234 Somewhere Road #87257<br />
                 Nashville, TN 00000-0000
             </p>
         </section>
@@ -64,16 +111,8 @@ namespace AspNetCore
                 <li><a href=""#"" class=""icon brands alt fa-twitter""><span class=""label"">Twitter</span></a></li>
                 <li><a href=""#"" class=""icon brands alt fa-facebook-f""><span class=""label"">Facebook</span></a></li>
                 <li><a href=""#"" class=""icon brands alt fa-instagram""><span class=""label"">Instagram</span></a></li>
-                <li><a href=""#"" class=""icon brands alt fa-github""><span class=""label"">GitHub</span></a></li>
-            </ul>
-        </section>
-    </section>
-</footer>
-
-<!-- Copyright -->
-<div id=""copyright"">
-    <ul><li>&copy; Untitled</li><li>Design: <a href");
-            WriteLiteral("=\"https://html5up.net\">HTML5 UP</a></li></ul>\r\n</div>");
+                <li><a href=""#"" class=""icon brands alt fa-github""><span class=""label"">GitHub</");
+            WriteLiteral("span></a></li>\r\n            </ul>\r\n        </section>\r\n    </section>\r\n</footer>\r\n\r\n<!-- Copyright -->\r\n<div id=\"copyright\">\r\n    <ul><li>&copy; Untitled</li><li>Design: <a href=\"https://html5up.net\">HTML5 UP</a></li></ul>\r\n</div>");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

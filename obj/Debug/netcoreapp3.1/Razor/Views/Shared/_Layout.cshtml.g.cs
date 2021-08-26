@@ -12,7 +12,15 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 4 "D:\Проекты c#\Helga_portfolio\Views\_ViewImports.cshtml"
+using Helga_portfolio.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fe8d19f3340724edd039082b1e937b0cc09aa617", @"/Views/Shared/_Layout.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a087df66349e43eb54c0addb13ae5e035bde9ea7", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("is-preload"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -42,7 +50,7 @@ namespace AspNetCore
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE HTML>\r\n<!--\r\n    Massively by HTML5 UP\r\n    html5up.net | \r\n    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)\r\n-->\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe8d19f3340724edd039082b1e937b0cc09aa6173209", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe8d19f3340724edd039082b1e937b0cc09aa6173540", async() => {
                 WriteLiteral("\r\n    ");
 #nullable restore
 #line 9 "D:\Проекты c#\Helga_portfolio\Views\Shared\_Layout.cshtml"
@@ -72,7 +80,7 @@ Write(await Html.PartialAsync("CssPartial"));
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe8d19f3340724edd039082b1e937b0cc09aa6174637", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe8d19f3340724edd039082b1e937b0cc09aa6174968", async() => {
                 WriteLiteral("\r\n    <!-- Wrapper -->\r\n    <div id=\"wrapper\" class=\"fade-in\">\r\n        ");
 #nullable restore
 #line 15 "D:\Проекты c#\Helga_portfolio\Views\Shared\_Layout.cshtml"

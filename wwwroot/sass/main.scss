@@ -60,6 +60,7 @@
 	@import 'components/table';
 	@import 'components/pagination';
 
+
 // Layout.
 
 	@import 'layout/wrapper';
@@ -69,3 +70,15 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/navPanel';
+
+	.div-box {
+		padding: 15px 0;
+
+		label {
+			display: block;
+		}
+
+		a {
+			display: block;
+		}
+	}
